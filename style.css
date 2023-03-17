@@ -1,38 +1,30 @@
 @charset "UTF-8";
-body{
-  max-width: 400px;
-}
-header{
+.header{
   width: 400px;
   height: 100px;
   background: #ff0000;
+  position: relative;
 }
-#white_box:after{
-  content: "";
-  display: block;
-  clear: both;
-}
-/* #white_box:before { 
-  content: "";
-  display: block;
-  clear: both;
-} */
 #white_box{
   background: #fff;
-  display: block;
-  margin-right: 20px;
-  margin-top: 20px;
-  width: 40%;
-  float: right;
+  float: left;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 10px;
 }
 .purple_box{
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  float: right;
+  float: left;
+}
+.second{
+  margin: 0 10px;
+}
+
+.middle{
+  width: 400px;
 }
 .green-box{
   width: 150px;
@@ -45,17 +37,6 @@ header{
   display: block;
   clear: both;
 } 
-/* .clearfix:before { 
-  content: "";
-  display: block;
-  clear: both;
-} 
-.clearfix {
-  display: block;
-}*/
-main{
-  position: relative;
-}
 .brown_box{
   width: 250px;
   height: 250px;
@@ -63,9 +44,7 @@ main{
   float: right;
   position: relative;
 }
-#wrap{ 
-  display:flex;
-  flex-flow: column;
+.wrap{ 
   position: absolute;
   left: 40px;
   top: 40px;
@@ -74,10 +53,11 @@ main{
   width: 140px;
   height: 40px;
   background: #ff863f;
-  border: solid 5px #fff;
+  border: 5px solid #fff;
   margin-bottom: 10px;
 }
 .yellow-box{
   height: 100px;
   background: #ffd000;
+  width: 400px;
 }
