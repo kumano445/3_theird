@@ -18,6 +18,10 @@
   height: 40px;
   background: #a9004b;
   float: left;
+  margin-right: 10px;
+}
+.purple_box:last-child{
+  margin-right: 0;
 }
 .second{
   margin: 0 10px;
@@ -55,6 +59,9 @@
   background: #ff863f;
   border: 5px solid #fff;
   margin-bottom: 10px;
+}
+.orange_box:last-child{
+  margin-bottom: 0;
 }
 .yellow-box{
   height: 100px;
